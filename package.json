@@ -1,6 +1,7 @@
 {
   "name": "nivo",
   "private": true,
+  "version": "1.0.0",
   "licenses": [
     {
       "type": "MIT",
@@ -9,13 +10,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/plouc/nivo"
+    "url": "git://github.com/netronixgroup/nivo"
   },
   "author": {
     "name": "Raphaël Benitte",
     "url": "https://github.com/plouc"
   },
   "keywords": [],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.3",
     "@ekino/config": "^0.3.0",
